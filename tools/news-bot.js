@@ -52,6 +52,47 @@ async function readChannel(token, channelId, limit) {
     return res.json();
 }
 
+const MAX_IMG = 8 * 1024 * 1024;
+const EXT = { 'image/png': '.png', 'image/jpeg': '.jpg', 'image/webp': '.webp', 'image/gif': '.gif' };
+let sharp = null;
+try { sharp = require('sharp'); } catch (_) { /* opcional: sin sharp se guarda la imagen original */ }
+
+/**
+ * Los enlaces de imagenes de Discord y de TikTok llevan una firma que caduca. Se copian al repositorio
+ * (carpeta images/, nombre = id del mensaje) y la noticia apunta a la copia, que no caduca.
+ * Con sharp (se instala en el flujo) se reducen a 1280 px de ancho y webp; los gif se dejan tal cual.
+ * Si una descarga falla, la noticia conserva el enlace original (recien generado, aun vigente).
+ */
+async function mirrorImages(items, base, dir, prune) {
+    if (!base) return;
+    fs.mkdirSync(dir, { recursive: true });
+    const keep = new Set();
+    for (const it of items) {
+        if (!/^https?:\/\//i.test(it.image || '')) continue;
+        let file = fs.readdirSync(dir).find(f => f.startsWith(it.id + '.'));
+        if (!file) {
+            try {
+                const res = await fetch(it.image, { headers: { 'User-Agent': 'PokecraftAdventure-NewsBot' } });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                let buf = Buffer.from(await res.arrayBuffer());
+                if (buf.length > MAX_IMG) throw new Error('imagen demasiado grande');
+                let ext = EXT[(res.headers.get('content-type') || '').split(';')[0].trim().toLowerCase()];
+                if (!ext) throw new Error('tipo de imagen no soportado');
+                if (sharp && ext !== '.gif') {
+                    buf = await sharp(buf).rotate().resize({ width: 1280, withoutEnlargement: true }).webp({ quality: 82 }).toBuffer();
+                    ext = '.webp';
+                }
+                file = it.id + ext;
+                fs.writeFileSync(path.join(dir, file), buf);
+            } catch (e) { console.error(`Aviso: imagen de ${it.id}: ${e.message}`); continue; }
+        }
+        keep.add(file);
+        it.image = `${base}/${file}`;
+    }
+    // Borra las imagenes de noticias que ya no estan (solo si se leyeron todos los canales).
+    if (prune) for (const f of fs.readdirSync(dir)) if (!keep.has(f)) fs.unlinkSync(path.join(dir, f));
+}
+
 async function main() {
     const token = process.env.DISCORD_BOT_TOKEN;
     if (!token) throw new Error('Falta DISCORD_BOT_TOKEN (secreto de GitHub)');
@@ -72,9 +113,10 @@ async function main() {
     items.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
     // Si ninguna fuente esta configurada no se pisa un news.json existente.
     if (!cfg.sources.some(x => x.channelId)) { console.log('Sin canales configurados: no se escribe nada.'); return; }
+    await mirrorImages(items, cfg.imageBase, path.join(path.dirname(out), 'images'), failed.length === 0);
     fs.writeFileSync(out, JSON.stringify({ items }, null, 2) + '\n');
     console.log(`${items.length} noticias escritas en ${out}`);
 }
 
 if (require.main === module) main().catch(e => { console.error(e.message); process.exit(1); });
-module.exports = { toItem };
+module.exports = { toItem, mirrorImages };
