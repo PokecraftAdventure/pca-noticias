@@ -55,10 +55,17 @@ async function main() {
     const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, 'news-sources.json'), 'utf8'));
     const out = path.resolve(process.argv[2] || 'news.json');
     const items = [];
+    const failed = [];
     for (const s of cfg.sources.filter(x => x.channelId)) {
-        const msgs = await readChannel(token, s.channelId, cfg.limitPerChannel || 10);
-        for (const m of msgs) { const it = toItem(m, s.type); if (it) items.push(it); }
+        // Un canal que falla (p. ej. 403 por falta de permiso) no tumba a los demas.
+        try {
+            const msgs = await readChannel(token, s.channelId, cfg.limitPerChannel || 10);
+            for (const m of msgs) { const it = toItem(m, s.type); if (it) items.push(it); }
+        } catch (e) { failed.push(s.channelId); console.error(`Aviso: ${e.message}`); }
     }
+    const total = cfg.sources.filter(x => x.channelId).length;
+    // Si fallaron todos no se pisa el news.json existente.
+    if (total && failed.length === total) throw new Error('No se pudo leer ningun canal');
     items.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
     // Si ninguna fuente esta configurada no se pisa un news.json existente.
     if (!cfg.sources.some(x => x.channelId)) { console.log('Sin canales configurados: no se escribe nada.'); return; }
