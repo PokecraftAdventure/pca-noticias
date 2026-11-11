@@ -1,0 +1,10 @@
+{
+    "_comentario": "Canales de Discord que alimentan las noticias. Solo IDs publicos; el token va en los secretos de GitHub (DISCORD_BOT_TOKEN), nunca aqui. Destacadas: todo lo de la tienda, y cualquier mensaje que el staff FIJE en Discord (featured=true).",
+    "limitPerChannel": 10,
+    "sources": [
+        { "channelId": "1531890409977151558", "type": "store", "_nota": "Anuncios de la tienda: siempre destacados" },
+        { "channelId": "1085284710776852642", "type": "announcement", "_nota": "Anuncios del servidor" },
+        { "channelId": "1517311761139634207", "type": "event", "_nota": "Eventos semanales (uno nuevo por semana aprox.)" },
+        { "channelId": "1545223105117421638", "type": "tiktok", "_nota": "Enlaces de videos nuevos de TikTok" }
+    ]
+}
