@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "1571303733222965359",
+      "type": "event",
+      "title": "🔔  SUBASTA DE NOVIEMBRE! 🎉",
+      "body": "Mañana tenemos una cita en Pokecraft. Prepárate para una subasta llena de sorpresas, Pokémon, objetos y muchas oportunidades que no querrás perderte. 👀🔥\n¡No faltes, te esperamos! 💜",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1571303733222965359.webp",
+      "author": "yulliana",
+      "date": "2026-11-14T23:20:03.412000+00:00",
+      "url": "",
+      "featured": false
+    },
+    {
       "id": "1569591183280185385",
       "type": "announcement",
       "title": "🎱🔥 ¡EL BILLAR LLEGA A POKECRAFT!",
@@ -206,17 +217,6 @@
       "image": "",
       "author": "yulliana",
       "date": "2026-10-25T23:43:53.703000+00:00",
-      "url": "",
-      "featured": false
-    },
-    {
-      "id": "1564017379292356629",
-      "type": "event",
-      "title": "¡QUE NO TE QUITEN EL PISO!",
-      "body": "Evento hoy no lo olvides",
-      "image": "",
-      "author": "yulliana",
-      "date": "2026-10-25T20:46:41.261000+00:00",
       "url": "",
       "featured": false
     },
