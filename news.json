@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "1571625857481441441",
+      "type": "event",
+      "title": "🎉 ¡TENEMOS UNA SORPRESA PARA TI! 🎉",
+      "body": "Por participar en nuestra subasta de noviembre, tenemos preparada una recompensa increíble que no querrás perderte. 👀✨\nRecuerda que puedes subastar cualquier objeto: Pokémon, ítems y mucho más. ¡Anímate a participar y encuentra algo que te sorprenda!\n🔥 ¡Te esperamos dentro de POKECRAFT ADVENTURE! No te lo pierdas. 💜",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1571625857481441441.webp",
+      "author": "yulliana",
+      "date": "2026-11-15T20:40:03.820000+00:00",
+      "url": "",
+      "featured": false
+    },
+    {
       "id": "1571303733222965359",
       "type": "event",
       "title": "🔔  SUBASTA DE NOVIEMBRE! 🎉",
@@ -206,17 +217,6 @@
       "image": "",
       "author": "yulliana",
       "date": "2026-10-26T21:43:21.092000+00:00",
-      "url": "",
-      "featured": false
-    },
-    {
-      "id": "1564061974986494043",
-      "type": "event",
-      "title": "Evento en 15 minutos",
-      "body": "",
-      "image": "",
-      "author": "yulliana",
-      "date": "2026-10-25T23:43:53.703000+00:00",
       "url": "",
       "featured": false
     },
