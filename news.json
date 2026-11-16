@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "1571859703657668620",
+      "type": "event",
+      "title": "🎱 ¡UNO EN LA MESA! 🎱",
+      "body": "¡Entrenadores, es hora de demostrar quién tiene mejor puntería! 🔥\nEste domingo 22 de noviembre tendremos un evento de BILLAR donde la precisión y la estrategia serán la clave para llevarse la victoria. 🎯\n¿Quién será el último en quedarse con la mesa? 👀\n🎱 ¡Preparen sus mejores tiros y nos vemos en la mesa!\n## 📅 Domingo 22 de noviembre\n## Horario:\n7:00 PM HORA SERVIDOR (lo encuentras en el Tab dentro del server)\n🇨🇴 Colombia: 7:00 p. m.\n🇪🇨 Ecuador: 7:00 p. m.\n🇵🇪 Perú: 7:00 p. m.\n🇸🇻 El Salvador: 6:00 p. m.\n🇲🇽 Ciudad de México: 6:00 p. m.\n🇨🇱 Chile: 9:00 p. m.\n🇦🇷 Argentina: 9:00 p",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1571859703657668620.webp",
+      "author": "yulliana",
+      "date": "2026-11-16T12:09:17.093000+00:00",
+      "url": "",
+      "featured": false
+    },
+    {
       "id": "1571625857481441441",
       "type": "event",
       "title": "🎉 ¡TENEMOS UNA SORPRESA PARA TI! 🎉",
@@ -184,17 +195,6 @@
       "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1565180067095519292.webp",
       "author": "yulliana",
       "date": "2026-10-29T01:46:47.635000+00:00",
-      "url": "",
-      "featured": false
-    },
-    {
-      "id": "1565116441986863127",
-      "type": "event",
-      "title": "Hoy tenemos evento",
-      "body": "No olvides subir tus construcciones en",
-      "image": "",
-      "author": "yulliana",
-      "date": "2026-10-28T21:33:58.227000+00:00",
       "url": "",
       "featured": false
     },
