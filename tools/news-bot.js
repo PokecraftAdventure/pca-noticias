@@ -8,7 +8,7 @@
  *
  * El token SOLO se lee de la variable de entorno (secreto de GitHub). No se guarda en el repositorio.
  * Los canales y su tipo (announcement | store | event | tiktok) estan en tools/news-sources.json.
- * Formato de cada noticia: { id, type, title, body, image, author, date, url, featured }.
+ * Formato de cada noticia: { id, type, title, body, image, author, date, url, featured, pinned }.
  * Nota: los enlaces de imagenes adjuntas de Discord caducan; si se quieren permanentes, publicar la
  * imagen en el repositorio o usar un enlace externo en el mensaje.
  */
@@ -40,7 +40,9 @@ function toItem(msg, type) {
         date: msg.timestamp || '',
         url,
         // Destacada: siempre la tienda, o cualquier mensaje que el staff fije (pin) en Discord.
-        featured: type === 'store' || msg.pinned === true
+        featured: type === 'store' || msg.pinned === true,
+        // Solo lo que el staff fijo en Discord (el launcher destaca en Inicio unicamente estas).
+        pinned: msg.pinned === true
     };
 }
 

@@ -4,7 +4,7 @@ name: Actualizar noticias
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '7-59/15 * * * *'   # cada 15 min (:07, :22, :37, :52), fuera del inicio de hora, que es cuando GitHub retrasa mas
   workflow_dispatch:
 
 permissions:
