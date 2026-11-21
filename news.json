@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1573760980754763797",
+      "type": "event",
+      "title": "🎱 ¡MAÑANA NOS VEMOS EN LA MESA! 🔥",
+      "body": "¡No olviden que mañana tenemos nuestro EVENTO DE BILLAR: UNO EN LA MESA! 🎱\nPrepárense para demostrar su puntería, competir y pasar un buen rato con la comunidad.\n🎁 Y eso no es todo… ¡también tenemos un regalito especial preparado para ustedes!\n👀 No se lo pierdan, ¡los esperamos!\n¡Que gane el mejor! 🏆",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1573760980754763797.webp",
+      "author": "yulliana",
+      "date": "2026-11-21T18:04:16.877000+00:00",
+      "url": "",
+      "featured": false,
+      "pinned": false
+    },
+    {
       "id": "1571859703657668620",
       "type": "event",
       "title": "🎱 ¡UNO EN LA MESA! 🎱",
@@ -200,18 +212,6 @@
       "image": "",
       "author": "yulliana",
       "date": "2026-10-30T20:06:04.125000+00:00",
-      "url": "",
-      "featured": false,
-      "pinned": false
-    },
-    {
-      "id": "1565180067095519292",
-      "type": "event",
-      "title": "⚔️ ¡TORNEO DE PVP COBBLEVERSE: FORMATO DOBLES! ⚔️",
-      "body": "¡Atención entrenadores! Es hora de demostrar quién tiene la mejor estrategia en equipo. Preparaos para el formato competitivo más dinámico y rápido de todos: Combates Dobles.\n## 📜 REGLAS DEL TORNEO\n⚔️ Formato de Combate:\n- Modalidad: Combates Dobles\n- Nivel: Todos los Pokémon se nivelarán automáticamente al Nivel 50.\n- Cláusula de Especies: No se permite tener dos Pokémon de la misma especie en el equipo.\n- Cláusula de Sueño: Solo puedes dormir a un Pokémon del rival a la vez.\n- Objetos Duplicados: Prohibido repetir objetos en el equipo (ej: no puedes llevar dos Pokémon con Banda Focus o dos ",
-      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1565180067095519292.webp",
-      "author": "yulliana",
-      "date": "2026-10-29T01:46:47.635000+00:00",
       "url": "",
       "featured": false,
       "pinned": false
