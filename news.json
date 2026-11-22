@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1574116285418307584",
+      "type": "store",
+      "title": "🖤🔥 ¡EL BLACK FRIDAY LLEGA A POKECRAFT ADVENTURE! 🔥🖤",
+      "body": "¡Es momento de aprovechar y llevarte eso que tanto quieres! 👀\n💥 25% DE DESCUENTO EN TODA LA TIENDA\n📅 Del 27 al 29 de noviembre\n🎁 ¡Tres días para conseguir tus productos favoritos a un precio especial!\n⚠️ No dejes pasar esta oportunidad, porque cuando termine el plazo, ¡vuelven los precios habituales!\n🛒 ¡PREPARA TU CARRITO Y APROVECHA EL BLACK FRIDAY!",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1574116285418307584.webp",
+      "author": "yulliana",
+      "date": "2026-11-22T17:36:08.110000+00:00",
+      "url": "",
+      "featured": true,
+      "pinned": false
+    },
+    {
       "id": "1573760980754763797",
       "type": "event",
       "title": "🎱 ¡MAÑANA NOS VEMOS EN LA MESA! 🔥",
@@ -332,18 +344,6 @@
       "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1555394855436550286.webp",
       "author": "yulliana",
       "date": "2026-10-02T01:43:51.375000+00:00",
-      "url": "",
-      "featured": true,
-      "pinned": false
-    },
-    {
-      "id": "1555394314102644805",
-      "type": "store",
-      "title": "ARTEFACTO DEL MES (RANGOS)",
-      "body": "## ¿QUÉ ES?\n**Guante Vampírico:** Hace que los ataques cuerpo a cuerpo del portador absorban vida.\n## ¿DONDE LO ENCONTRARAS?\nEn los **RANGOS MENSUALES**",
-      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1555394314102644805.webp",
-      "author": "yulliana",
-      "date": "2026-10-02T01:41:42.311000+00:00",
       "url": "",
       "featured": true,
       "pinned": false
