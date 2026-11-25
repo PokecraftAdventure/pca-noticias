@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1575188155106336819",
+      "type": "event",
+      "title": "⚔️ EVENTO: LA ÚLTIMA BATALLA",
+      "body": "Nos despedimos de noviembre con nostalgia, pero diciembre llega con nuevos cambios y sorpresas para todos. 👀✨\nEste domingo, LA ÚLTIMA BATALLA dará un giro a nuestra aventura.\n## 🕕HORA:  6:00 PM (hora servidor)\n- Nos reuniremos en el canal de voz GENERAL de Discord para compartir unos pequeños anuncios sobre cómo se manejará el próximo mantenimiento. No necesitas hablar, solo entrar y escuchar; nos alegrará tenerte allí.\nDespués, nos adentraremos en el juego para continuar el evento…\n🔥 Un enemigo que pondrá a prueba a los mejores entrenadores. Prepara a tu Pokémon más fuerte, elige cuidadosa",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1575188155106336819.webp",
+      "author": "yulliana",
+      "date": "2026-11-25T16:35:21.758000+00:00",
+      "url": "",
+      "featured": false,
+      "pinned": false
+    },
+    {
       "id": "1574116285418307584",
       "type": "store",
       "title": "🖤🔥 ¡EL BLACK FRIDAY LLEGA A POKECRAFT ADVENTURE! 🔥🖤",
@@ -200,18 +212,6 @@
       "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1566547597596950549.webp",
       "author": "yulliana",
       "date": "2026-11-01T20:20:52.314000+00:00",
-      "url": "",
-      "featured": false,
-      "pinned": false
-    },
-    {
-      "id": "1566249921940824114",
-      "type": "event",
-      "title": "🎮✨ ¡DOMINGO DE EVENTOS EN POKECRAFT ADVENTURE! ✨",
-      "body": "¡Entrenadores, este domingo tenemos diversión asegurada! 🎉\n🕹️ Minijuegos\n🌟 Ruleta Shiny\n## 📅 Fecha: Domingo 01 de Noviembre\n## ⏰ HORARIOS\n🇨🇴 Colombia: 7:00 p. m.\n🇪🇨 Ecuador: 7:00 p. m.\n🇵🇪 Perú: 7:00 p. m.\n🇸🇻 El Salvador: 6:00 p. m.\n🇲🇽 Ciudad de México: 6:00 p. m.\n🇨🇱 Chile: 8:00 p. m.\n🇦🇷 Argentina: 8:00 p. m.\n¡Prepárate para participar, divertirte y probar tu suerte! 🍀\n🔥 ¡No te lo pierdas!",
-      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1566249921940824114.webp",
-      "author": "yulliana",
-      "date": "2026-11-01T00:38:00.907000+00:00",
       "url": "",
       "featured": false,
       "pinned": false
