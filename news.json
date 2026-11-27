@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1575784988564262932",
+      "type": "store",
+      "title": "🖤 ¡BLACK FRIDAY EN COBBLEVERSE! 🛍️",
+      "body": "¡Las ofertas ya están aquí! Desde hoy 27 hasta el 29 de noviembre, aprovecha el Black Friday de Pokecraft con descuentos especiales y nuevos objetos que llegan por tiempo limitado. 👀\n💥 ¡25% DE DESCUENTO! Disfruta de ofertas especiales en la tienda y aprovecha estos días para conseguir aquello que tenías pendiente.\n## ✨ NOVEDADES EXCLUSIVAS\n### ⛏️ Goldengo de Netherita\n¡Disponible exclusivamente durante estos días de descuento! Una oportunidad única para conseguirlo antes de que termine la promoción.\n### 🔑 Llaves de Crates\nNuevas opciones para probar tu suerte y conseguir recompensas.\n### 🖼",
+      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1575784988564262932.webp",
+      "author": "yulliana",
+      "date": "2026-11-27T08:06:57.943000+00:00",
+      "url": "",
+      "featured": true,
+      "pinned": false
+    },
+    {
       "id": "1575188155106336819",
       "type": "event",
       "title": "⚔️ EVENTO: LA ÚLTIMA BATALLA",
@@ -332,18 +344,6 @@
       "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1555395183653294185.webp",
       "author": "yulliana",
       "date": "2026-10-02T01:45:09.628000+00:00",
-      "url": "",
-      "featured": true,
-      "pinned": false
-    },
-    {
-      "id": "1555394855436550286",
-      "type": "store",
-      "title": "🛡️✨ ARMADURA POKÉMON DEL MES (RANGOS)✨🛡️",
-      "body": "## 🐦‍⬛  : ¿Qué incluye?\n🛡️ Armadura de ARMAROUGE\n🔸 Casco\n🛡️ Armadura: +3\n💪 Dureza de armadura: +2.5\n🔸 Pechera\n🛡️ Armadura: +8\n💪 Dureza de armadura: +2.5\n🔸 Pantalones\n🛡️ Armadura: +6\n💪 Dureza de armadura: +2.5\n🔸 Botas\n🛡️ Armadura: +3\n💪 Dureza de armadura: +2.5\n## 🎁 ¿Dónde conseguirla?\nPodrás obtener este exclusivo set en **RANGOS MENSUALES**.",
-      "image": "https://raw.githubusercontent.com/PokecraftAdventure/pca-noticias/main/images/1555394855436550286.webp",
-      "author": "yulliana",
-      "date": "2026-10-02T01:43:51.375000+00:00",
       "url": "",
       "featured": true,
       "pinned": false
